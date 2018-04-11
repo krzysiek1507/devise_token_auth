@@ -1,4 +1,5 @@
 [
+  { name: '4-1', version: '4.1.16' },
   { name: '4-2', version: '4.2.10' }
 ].each do |rails|
   appraise "rails-#{rails[:name]}" do
